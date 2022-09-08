@@ -1,0 +1,30 @@
+.boxes{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.box{
+    width: 75px;
+    height: 60px;
+    background: rgb(61,62,82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    &:hover{
+        background: rgb(37,37,37);
+        transform: scale(1.05);
+    }
+}
+.box__main{
+    width: 100px;
+    height: 80px;
+    background: rgb(37,37,37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+}
